@@ -1,0 +1,129 @@
+body 
+{
+    background-image: url('backmain.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+.top-bar img 
+{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.title 
+{
+    text-align: center;
+    background: #A41D24;
+    color: white;
+    padding: 1px;
+}
+
+.title h1
+{
+    font-size: 25px;
+}
+
+.title p
+{
+    font-size: 15px;
+}
+
+
+
+
+
+.navbar 
+{
+    display: flex;
+    justify-content: center; /* Centers nav links */
+    align-items: center;
+    width: 100%; /* Extends to full width */
+    padding: 10px 0;
+    background: linear-gradient(180deg, #fbfbfb, #db5d5d);
+}
+
+.nav-links 
+{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li 
+{
+    display: inline;
+
+}
+
+.nav-links a 
+{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(15, 15, 15);
+}
+
+.nav-links :hover
+{
+    background:linear-gradient(180deg, #000000, #030303);
+    transition:cubic-bezier(1, 0, 0, 1);
+    color:rgb(255, 81, 0);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.apply 
+{
+    position: fixed;
+    right: 0;
+    top: 70%;
+    transform: translateY(-50%);
+    background: #A41D24;
+    color: white;
+    padding: 30px 14px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease-in-out;
+    writing-mode: vertical-rl;
+    text-align: center;
+    cursor: pointer;
+}
+
+.apply:hover 
+{
+    background: #8f1920;
+}
+
+
+
+
+
+.footer 
+{
+    text-align: center;
+    background: #A51E25;
+    color: white;
+    padding: 2px;
+    margin-top: auto;
+    width: 100%;
+}
